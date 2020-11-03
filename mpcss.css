@@ -1,0 +1,61 @@
+body{
+  background-color: rgba(120, 231, 231, 0.54);
+  background-repeat: repeat;
+}
+
+nav{
+  margin-bottom: 50px;
+  background-color: rgb(14, 30, 46);
+}
+
+#icon{
+  margin-right: 10px;
+}
+
+.navbar-brand:hover{
+  color: rgba(120, 231, 231, 0.54);
+}
+
+.navbar-toggler{
+  border: 1px solid;
+  border-color: white;
+}
+
+.nav-link:hover{
+  color: rgba(120, 231, 231, 0.54);
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.nav-link{
+  color: white;
+}
+
+h1{
+  margin-bottom: 30px;
+}
+
+table{
+  max-width: 90%;
+  border: 1px solid;
+  border-color: black;
+  margin: auto;
+}
+
+.it{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.d-inline-block{
+  max-width: 70px;
+  max-height: 70px;
+}
+
+th,td{
+   border-top: 1px solid;
+   border-bottom: 1px solid;
+   border-color: black;
+ }
