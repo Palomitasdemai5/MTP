@@ -1,0 +1,103 @@
+body{
+  background-color: rgba(120, 231, 231, 0.54);
+  background-repeat: repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+  margin-bottom: 50px;
+  background-color: rgb(14, 30, 46);
+  font-size: 20px;
+}
+
+#icon{
+  margin-right: 10px;
+  max-width: 200px;
+  max-height: 60px;
+}
+
+.navbar-brand:hover{
+  color: rgba(120, 231, 231, 0.54);
+}
+
+.navbar-toggler{
+  border: 1px solid;
+  border-color: white;
+}
+
+.nav-link:hover{
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.hvr-sink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.nav-link{
+  color: white;
+}
+
+#header{
+  margin-bottom: 30px;
+  font-size: 55px;
+  background-color: white;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: black;
+}
+
+table{
+  max-width: 90%;
+  border: 1px solid;
+  border-color: black;
+  margin: auto;
+}
+
+.it{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+tr:hover{
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  th,td{
+     border-top: 1px solid;
+     border-bottom: 1px solid;
+     border-color: black;
+     font-size: 15px;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+th,td{
+   border-top: 1px solid;
+   border-bottom: 1px solid;
+   border-color: black;
+   font-size: 25px;
+ }
+}
+
+#sbar{
+  width: 90%;
+  margin: auto;
+}

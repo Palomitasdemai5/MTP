@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesSearch.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/5856b3da4f6ae202fedf2794.png" type="image/x-icon">
+
+    <title>SoundBoard : Search</title>
+  </head>
+  <body>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+          <a href="index.html" class="navbar-brand"><img src="img/music.png" class="align-top" id="icon"></a>
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+              <ul class="navbar-nav ml-auto text-center">
+                  <li class="nav-item active hvr-sink">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item active hvr-sink">
+                      <a class="nav-link" href="search.html">Search</a>
+                  </li>
+                  <li class="nav-item active hvr-sink">
+                      <a class="nav-link" href="purchase.html">Purchase</a>
+                  </li>
+                  <li class="nav-item active hvr-sink">
+                      <a class="nav-link" href="signup.html">Sign up</a>
+                  </li>
+                  <li class="nav-item active hvr-sink">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+            <!-- Search Input -->
+            <p align="center" id="header">Music Search</p>
+            <div class="input-group mb-3" id="sbar">
+                <input id="searchInput" type="text" class="form-control" aria-describedby="inputGroup-sizing-default" placeholder="Write the name, artist or album of the song" />
+                <div class="input-group-prepend">
+                    <button onclick="search()" class="input-group-text" id="inputGroup-sizing-default">
+                        <!-- Search Icon -->
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                        </svg>
+                        <!-- Search Icon End -->
+                    </button>
+                </div>
+            </div>
+
+            <!-- Songs Table -->
+                <table class="table table-sm">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Artist</th>
+                            <th scope="col">Album</th>
+                            <th scope="col">Cover</th>
+                        </tr>
+                    </thead>
+                    <tbody id="songs">
+                        <!-- List of songs with javascript -->
+                    </tbody>
+                </table>
+        <br><br><br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="scriptSearch.js"></script>
+  </body>
+</html>
