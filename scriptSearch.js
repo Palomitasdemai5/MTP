@@ -179,7 +179,7 @@ function search() {
                 <td>${searchedSongs[i].Name}</td>
                 <td>${searchedSongs[i].Artist}</td>
                 <td>${searchedSongs[i].Album}</td>
-                <td><img src = "${songs[i].Cover}" class = "it"></td>
+                <td><img src = "${searchedSongs[i].Cover}" class = "it"></td>
             </tr>
         `;
     }
